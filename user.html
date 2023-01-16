@@ -28,6 +28,83 @@
         </ul>
     </header>
 
+
+
+    <?php  include 'header.php' ?>
+    
+    <section class="user" id=user>   
+    <div class="container" id="container">
+        <div class="form-container sign-up-container">
+            <form action="#" name="register" method="post">
+                <h1>Create Account</h1>
+                
+                <input type="text" id="name"  name="username" placeholder="Name" />
+                <span id='validate-user'></span>
+                <input type="email"  name="email" placeholder="Email" />
+                <input type="password" id="password" name="pass" placeholder="Password" />
+                <span id='validatepass'></span>
+                <input type="password" id="checkpassword" name="checkpass" placeholder="Confirm Password" />
+                <button id="signupbtn" name="register" >Sign Up</button>
+    
+            </form>
+        </div>
+        <div class="form-container sign-in-container">
+            <form action="#" name="login" method="post">
+                <h1>Sign in</h1>
+            
+                <input type="email" name="user_emaillogin" placeholder="Email" />
+                <input type="password" name ="passlogin" placeholder="Password" />
+            
+                <button id="signinbtn" name="login" >Sign In</button>
+            </form>
+        </div>
+        <div class="overlay-container">
+            <div class="overlay">
+                <div class="overlay-panel overlay-left">
+                    <h1>Welcome Back!</h1>
+                    <p>To keep connected with us please login with your personal info</p>
+                    <button class="ghost" id="signIn">Sign In</button>
+                </div>
+                <div class="overlay-panel overlay-right">
+                    <h1>Hello, there!</h1>
+                    <p>If you want to benefit more from us, please Sign Up!</p>
+                    <button class="ghost" id="signUp">Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+        </section>
+         <!--footer-->
+    
+         <?php  include 'footer.php' ?>
+    
+  
+    <script type="text/javascript" src="js.js"></script>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <footer>
         <div class="footer-div">   
            <ul class="navv">
