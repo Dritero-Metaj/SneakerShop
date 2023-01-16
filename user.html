@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css"/>
+
+
+
+    <style>
+
+        body{
+            background: url("");
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <a href="#" class="logo">𝕸𝖆𝖓𝖌𝖔<span>𝙨𝙣𝙚𝙖𝙠𝙚𝙧𝙨</span></a>
+        <ul class="nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="aboutUs.html">About Us</a></li>
+            <li><a href="contactUs.html">Contact Us</a></li>
+            <li><a href="offers.html">Offers</a></li>
+            <li><a href="user.html">User</a></li>
+        </ul>
+    </header>
+
+    <footer>
+        <div class="footer-div">   
+           <ul class="navv">
+       <li><a href="#bannerr">Privacy Policy</a></li>
+       <li><a href="#about">Terms of sale </a></li>
+       <li><a href="contactUs.html">Social Media</a></li>
+       <li><a href="#treatment">Offers</a></li>
+       <li><a href="#user">User</a></li>
+       </ul> 
+</div>
+</footer>
+
+    <script type="text/javascript">
+        //hide and show--toggle, dmth checks for visibility
+        //scrollY-property of the Window interface, kthen numrin e pixel-ave qe dokumenti eshte currently scrolled vertikalisht ne nje dritare
+        //If the document isn't scrolled at all up or down, then scrollY is 0... bon edhe pa ata?
+        window.addEventListener('scroll',function(){
+            const header= document.querySelector('header');
+            header.classList.toggle("sticky",window.scrollY>0)
+        })
+        </script>
+
+    </body>
+
+</html>
