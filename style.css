@@ -63,6 +63,7 @@ p{
     background:#1f0909;
     display:inline-block;
     padding: 15px 50px;
+    margin-left: 135px;
     margin-top: 70px;
     text-transform: uppercase;
     text-decoration: none;
@@ -156,6 +157,7 @@ section{
     font-size: 3em ;
     font-weight: 400;
     margin-top: 30px;
+    margin-left: 145px;
 } 
 
 .row .col p{
@@ -582,8 +584,8 @@ footer .navv li a{
 
 button {
     border-radius: 20px;
-    border: 1px solid #ff0157;
-    background-color: #ff0157;
+    border: 1px solid #ff0101 ;
+    background-color: #ff0101;
     color: #FFFFFF;
     font-size: 12px;
     font-weight: bold;
@@ -697,9 +699,9 @@ input {
 }
 
 .overlay {
-    background: #ff0157;
-    background: -webkit-linear-gradient(to right, #f06895, #ff0157);
-    background: linear-gradient(to right, #f06895, #ff0157);
+    background: #ff0101;
+    background: -webkit-linear-gradient(to right, #f96464, #ff0101);
+    background: linear-gradient(to right, #f96464,#ff0101);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 0 0;
@@ -810,7 +812,7 @@ input {
   
   /* Style the back side */
   .flip-card-back {
-    background-color: #ff0157;
+    background-color: #ff0101;
     color: transparent;
     transform: rotateY(180deg);
     border-radius: 10px;
@@ -828,3 +830,6 @@ input {
  .p {
      font-size: 3em;
  }
+
+
+ /*------------------asdfg----------------------*/
